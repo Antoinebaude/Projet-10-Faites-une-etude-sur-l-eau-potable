@@ -1,37 +1,44 @@
-# Projet 10 — Faites une étude sur l’eau potable
+# Projet 10 – Faites une étude sur l’eau potable
 
 ## 🎯 Objectif
-Analyser des indicateurs liés à l’accès à l’eau potable et produire une restitution claire (tableau de bord) pour aider à identifier les zones prioritaires et orienter les décisions.
+Concevoir un tableau de bord interactif sous Power BI afin d’analyser
+l’accès à l’eau potable à partir de données internationales
+et d’aider à la priorisation des actions.
 
-## 🧩 Contexte (OpenClassrooms)
-Projet réalisé dans le cadre de la formation **Data Analyst**. Le travail consiste à transformer des données multi-sources en informations exploitables, à travers une démarche structurée : préparation, analyse, visualisation et communication.
+## 📌 Contexte
+Projet réalisé dans le cadre de la formation **Data Analyst – OpenClassrooms**.  
+Ce projet vise à démontrer la capacité à modéliser des données,
+à créer des indicateurs pertinents et à produire une visualisation
+claire et orientée décision.
 
 ## ❓ Problématique
-Comment **identifier les pays/territoires prioritaires** en matière d’accès à l’eau potable et **présenter les résultats** de manière lisible pour des décideurs non techniques ?
+Comment exploiter des données relatives à l’accès à l’eau potable
+pour identifier des disparités territoriales et mettre en évidence
+des zones prioritaires à l’aide d’un tableau de bord décisionnel ?
 
 ## 🛠️ Approche & outils
-- Préparation des données : contrôle qualité, nettoyage, harmonisation des variables
-- Construction d’indicateurs : KPIs synthétiques, comparaisons, classements
-- Datavisualisation : tableaux de bord orientés décision (filtres, vues comparatives)
-- Outils : Power BI (Power Query, modèle de données, DAX), Excel (si besoin)
+- Import et préparation des données dans Power BI
+- Modélisation du modèle de données
+- Création d’indicateurs d’analyse
+- Conception de visualisations interactives
+- Mise en place de filtres et segments pour l’exploration
+
+**Outils utilisés :**
+- Power BI Desktop
+- Power Query
+- DAX (mesures simples)
+- Données publiques internationales (ONU, OMS, Banque mondiale)
 
 ## 📊 Résultats & livrables
-- Tableau de bord Power BI permettant :
-  - d’explorer les indicateurs clés par pays/région
-  - d’identifier les zones prioritaires
-  - de faciliter la lecture et la prise de décision
+Le projet aboutit à un tableau de bord Power BI permettant :
+- d’analyser l’accès à l’eau potable par zone géographique
+- d’identifier des disparités majeures
+- de faciliter la prise de décision grâce à une lecture synthétique
 
-## 💡 Compétences mobilisées
-- Analyse & restitution : choix d’indicateurs pertinents, dataviz orientée décision
-- Data preparation : qualité, cohérence, nettoyage
-- Modélisation / DAX (selon périmètre)
-- Communication : vulgarisation pour un public non technique
+L’ensemble des livrables est disponible dans le dossier `livrables/`.
 
-## 🔎 Comment parcourir ce repository
-- `powerbi/` : captures (ou lien) du dashboard + éventuelles notes
-- `docs/` : démarche, hypothèses, définitions des indicateurs
-- `data/` : échantillon léger (optionnel) / lien vers source si nécessaire
-
----
-
-📌 *Ce repository met l’accent sur la démarche (méthode), la clarté des KPIs et la valeur décisionnelle du tableau de bord.*
+## ✅ Compétences mobilisées
+- Data visualisation
+- Modélisation de données
+- Analyse orientée métier
+- Storytelling et restitution
